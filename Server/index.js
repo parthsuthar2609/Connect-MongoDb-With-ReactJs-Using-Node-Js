@@ -14,7 +14,7 @@ app.use(cors());
 // MongoDB Connection
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://parth26:Parth2609@cluster0.ajyukl4.mongodb.net/BackendDb?retryWrites=true&w=majority&appName=Cluster0', {
+    await mongoose.connect('mongodb+srv:/@cluster0.ajyukl4.mongodb.net/BackendDb?retryWrites=true&w=majority&appName=Cluster0', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
